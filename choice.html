@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="timer.css" rel="stylesheet">
+    <link href="choice.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="gfg-div">
+    <div>
+      <h1 id="output text">Choice The Topic</h1>
+      <center><img class="img-responsive" height="250" width="250" src="https://media.tenor.com/n1uLtbHZmpMAAAAi/you-can-only-pick-one-choose-one.gif"></center>
+  </div>
+  <script>
+      setInterval(
+      function random_bgcol() {
+          var a = Math.floor(Math.random() * 256);
+          var b = Math.floor(Math.random() * 256);
+          var c = Math.floor(Math.random() * 256);
+          var bgcol = "rgb(" + a + "," + b + "," + c + ")";
+          console.log(bgcol);
+          
+              document.getElementById("output text").style.color = bgcol;
+          
+      },1000);
+      
+      random_bgcol();
+  </script>
+    <div class="container">
+      <div class="btn"><a href="flc math.html">MATH</a></div>
+      <div class="btn"><a href="flc.html">SCIENCE</a></div>
+      <div class="btn"><a href="flc jk.html">CurrentNews</a></div>
+      <div class="btn"><a href="flc english.html">ENGLISH</a></div>
+      <div class="btn"><a href="flc rea.html">Brain Fuse</a></div>
+      <script src="dfinal.js">
+      </script>
+    </div>
+    </div>
+
+</body>
+
+</html>
